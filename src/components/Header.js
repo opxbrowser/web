@@ -5,7 +5,7 @@ import HeaderBg from "../assets/header-bg.png";
 
 export default function Header() {
     return (
-        <div className="w-full h-[68px] flex items-center justify-center border-b-2 border-white ">
+        <div className="w-full h-[70px] flex items-center justify-center border-b-2 border-white ">
             <nav>
                 <ul className="flex items-center not-sr-only">
                     <HeaderItem title="Home" href="/" />
