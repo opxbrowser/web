@@ -26,7 +26,9 @@ const HeaderItem = ({ title, isSeparated, href }) => {
   return (
     <NavLink to={href}>
       <li
-        className={`text-white font-semibold text-lg ${isSeparated && "ml-60"}`}
+        className={`text-white font-medium text-lg hover:text-black hover:duration-300 ${
+          isSeparated && "ml-60"
+        }`}
       >
         {title}
       </li>
