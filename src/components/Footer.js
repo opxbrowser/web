@@ -15,7 +15,7 @@ export default function Footer() {
                         href="/terms"
                         isSeparated
                     />
-                    <FooterItem title="Opx Browser 2022" href="/" isSeparated />
+                    <FooterItem title="Opx Browser 2022" href="/" />
                 </ul>
             </nav>
         </div>
