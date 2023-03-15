@@ -3,12 +3,13 @@ import ImageOpxContainer from "../components/ImageOpxContainer";
 import InfoContainer from "../components/InfoContainer";
 import Layout from "../components/Layout";
 
-export default function About() {
+export default function Terms() {
     return (
-
-      // description="Update on 02/14/2023"
         <Layout>
-            <InfoContainer title="About OPX">
+            <InfoContainer
+                title="Service Terms"
+                description="Update on 02/14/2023"
+            >
                 <p className="text-justify text-xl leading-6 ">
                     Lorem ipsum dolor sit amet consectetur. Tincidunt nisl enim
                     dui et et. Netus integer laoreet quam tempus nulla.
