@@ -8,7 +8,7 @@ import iphones from "../assets/iphones.jpg";
 export default function Home() {
 	return (
 		<Layout>
-			<main className="flex items-center px-24 overflow-x-hidden">
+			<main className="flex items-center overflow-x-hidden">
 				<div className="flex flex-col mt-14">
 					<img src={opxElipseClean} alt="Opx browser" className="self-center" />
 					<p className="text-primary text-5xl max-w-[650px] mt-20">
@@ -29,6 +29,7 @@ export default function Home() {
 						href="https://play.google.com/store"
 						target="_blank"
 						className="flex bg-white w-[172px] "
+						rel="noreferrer"
 					>
 						<img
 							src={googlePlayBadge}
