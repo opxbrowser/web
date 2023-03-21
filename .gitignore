@@ -25,3 +25,6 @@ yarn-error.log*
 # readme
 
 /tasks.md
+
+/package-lock.json
+/yarn.lock
