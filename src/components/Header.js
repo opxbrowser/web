@@ -58,7 +58,10 @@ export default function Header() {
 						exit={{ y: -10, opacity: 0 }}
 						className="absolute w-[300px] h-[350px] px-10 bg-white rounded-3xl right-8 top-22 shadow-md"
 					>
-						<div className="flex flex-row items-center mt-8">
+						<div
+							onClick={() => setShowsMenu(!showsMenu)}
+							className="flex flex-row items-center mt-8"
+						>
 							<BiChevronLeft size={28} />
 							<span className="text-xl ml-4">Menu</span>
 						</div>
