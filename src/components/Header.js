@@ -12,7 +12,7 @@ export default function Header() {
 	const menuOptions = useCallback(
 		(isSeparated) => [
 			{ id: 1, name: "Home", href: "/" },
-			{ id: 2, name: "About", href: "/about", isSeparated },
+			{ id: 2, name: "Why Opx?", href: "/why", isSeparated },
 			{ id: 3, name: "Install App", href: "/app", isSeparated },
 		],
 		[]
