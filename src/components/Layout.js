@@ -8,7 +8,7 @@ import HorizontalPadding from "./HorizontalPadding";
 
 export default function Layout({ children }) {
 	return (
-		<div className="min-w-full overflow-x-hidden">
+		<div className="min-w-full h-[100vh] overflow-x-hidden">
 			<Header />
 			<HorizontalPadding>{children}</HorizontalPadding>
 			<Footer />
