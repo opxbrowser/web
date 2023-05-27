@@ -15,7 +15,7 @@ export default function Footer({ footerStyles }) {
 					<FooterItem title="Data policy" href="/policy" bottomSeparated />
 					<FooterItem title="Service Terms" href="/terms" bottomSeparated />
 					<FooterItem
-						title="@Opx Browser 2022"
+						title="@Opx Browser 2023"
 						href="/"
 						disabled
 						bottomSeparated
