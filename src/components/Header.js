@@ -25,7 +25,7 @@ export default function Header() {
 
 	return (
 		<>
-			<div className="w-full h-[64px] flex items-center justify-center border-b-2 border-white max-[800px]:justify-end">
+			<div className="w-full h-[70px] flex items-center justify-center border-b-2 border-white max-[800px]:justify-end">
 				<nav className="max-[800px]:hidden">
 					<ul className="flex items-center not-sr-only">
 						{menuOptions(true).map((item) => (
