@@ -11,7 +11,7 @@ export default function ImageOpxContainer() {
 				/>
 			</div>
 			<span className="bg-gradient-to-r  text-transparent bg-clip-text from-primary to-pink mt-10 hover:from-pink hover:to-primary hover:transition-all cursor-default text-lg max-[600px]:text-base max-[400px]:text-sm">
-				@Opx Browser 2022
+				@Opx Browser
 			</span>
 		</div>
 	);
