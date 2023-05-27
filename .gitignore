@@ -30,3 +30,6 @@ yarn-error.log*
 /yarn.lock
 
 /.firebase
+
+/package-lock.json
+/yarn.lock
