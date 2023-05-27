@@ -6,6 +6,10 @@ Opx Browser is an open-source browser developed with the aim of protecting users
 
 For more information and to download Opx Browser, please visit the [official Opx Browser website](https://opxbrowser.com).
 
+## Source Code Repository
+
+The source code for the Opx Browser application can be found in the GitHub repository: [https://github.com/opxbrowser/mobile](https://github.com/opxbrowser/mobile).
+
 ## Installation
 
 Follow the steps below to install Opx Browser in your local environment:
@@ -37,10 +41,6 @@ Follow the steps below to install Opx Browser in your local environment:
    ```
 
 6. Wait for the application to be compiled and the development server to start. Once the process is complete, Opx Browser will be available in your local environment through the browser.
-
-## Source Code Repository
-
-The source code for the Opx Browser application can be found in the GitHub repository: [https://github.com/opxbrowser/mobile](https://github.com/opxbrowser/mobile).
 
 ## License
 
