@@ -1,9 +1,13 @@
 import React from "react";
 
-const padding = "px-24";
-
-function HorizontalPadding({ children }) {
-	return <div className={`${padding} max-[500px]:px-8`}>{children}</div>;
+function HorizontalPadding({ children, containerStyle }) {
+	return (
+		<main
+			className={`px-52 h-[81.8%] ${containerStyle} max-[1200px]:px-24 max-[600px]:px-8 max-[400px]:px-4`}
+		>
+			{children}
+		</main>
+	);
 }
 
 export default HorizontalPadding;
