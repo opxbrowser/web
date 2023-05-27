@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../components/Layout";
 
 import opxElipseClean from "../assets/opx-elipse-clean.svg";
-import googlePlayBadge from "../assets/google-play-badge.svg";
 import iphones from "../assets/iphones.png";
 
 export default function Home() {
@@ -26,21 +25,6 @@ export default function Home() {
 						<span className="font-bold">Opx</span> your easy and helpful mobile
 						browser
 					</p>
-					{/* <p className="text-primary-400 text-base mt-14 max-[950px]:text-center max-[500px]:text-sm">
-						Choose your platform to install:
-					</p>
-					<a
-						href="https://play.google.com/store"
-						target="_blank"
-						className="bg-white w-[172px] max-[950px]:self-center"
-						rel="noreferrer"
-					>
-						<img
-							src={googlePlayBadge}
-							alt="google play banner"
-							className="w-[172px] mt-5 cursor-pointer max-[500px]:w-[140px] max-[500px]:self-center"
-						/>
-					</a> */}
 				</div>
 				<img
 					className="absolute top-14 right-0 max-[1440px]:w-[600px] max-[1440px]:top-24 max-[1100px]:w-[500px] max-[1100px]:top-32 max-[950px]:hidden"
