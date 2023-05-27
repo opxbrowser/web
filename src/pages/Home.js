@@ -7,7 +7,7 @@ import iphones from "../assets/iphones.png";
 
 export default function Home() {
 	return (
-		<Layout footerStyles="mt-80">
+		<Layout footerStyles="mt-64">
 			<main className="flex items-center overflow-x-hidden  max-[950px]:justify-center">
 				<div className="flex flex-col mt-14">
 					<img
