@@ -8,7 +8,7 @@ For more information and to download Opx Browser, please visit the [official Opx
 
 ## Technologies
 
-[![Technologies](https://skills.thijs.gg/icons?i=js,html,css,git,firebase,react,tailwind)](https://skills.thijs.gg)
+[![Technologies](https://skills.thijs.gg/icons?i=js,html,css,git,firebase,react,tailwind,figma)](https://skills.thijs.gg)
 
 ## Source Code Repository
 
