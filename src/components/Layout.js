@@ -8,7 +8,7 @@ import HorizontalPadding from "./HorizontalPadding";
 
 export default function Layout({ children, containerStyle }) {
 	return (
-		<div className="min-w-full h-[100vh] overflow-x-hidden">
+		<div className="flex flex-col justify-between min-w-full min-h-[100vh] overflow-x-hidden">
 			<Header />
 			<HorizontalPadding containerStyle={containerStyle}>
 				{children}
