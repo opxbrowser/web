@@ -13,7 +13,12 @@ export default function Header() {
 		(isSeparated) => [
 			{ id: 1, name: "Home", href: "/" },
 			{ id: 2, name: "Why Opx?", href: "/why", isSeparated },
-			{ id: 3, name: "Install App", href: "/app", isSeparated },
+			{
+				id: 3,
+				name: "Install App",
+				href: "https://github.com/opxbrowser/mobile",
+				isSeparated,
+			},
 		],
 		[]
 	);
@@ -97,6 +102,23 @@ const HeaderItem = ({
 	color = "#FFFFFF",
 	contentStyle = "",
 }) => {
+	if (href.includes("https://")) {
+		return (
+			<li
+				className={`text-white font-medium text-lg hover:text-black hover:duration-300 ${
+					isSeparated && "ml-60"
+				} ${contentStyle}`}
+				style={{
+					color,
+				}}
+			>
+				<a target="__blank" href={href}>
+					{title}
+				</a>
+			</li>
+		);
+	}
+
 	return (
 		<NavLink to={href}>
 			<li

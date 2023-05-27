@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 
-export default function Footer() {
+export default function Footer({ footerStyles }) {
 	return (
-		<div className="w-full h-[70px] flex items-center justify-center bg-white mt-8 max-[680px]:mt-20">
+		<div
+			className={`w-full h-[70px] flex items-center justify-center bg-white mt-8 max-[680px]:mt-20 ${footerStyles}`}
+		>
 			<nav>
 				<ul className="flex items-center not-sr-only max-[680px]:hidden">
 					<FooterItem title="Data policy" href="/policy" isSeparated />
