@@ -17,14 +17,14 @@ export default function InfoContainer({ children, title, description }) {
 						className="w-[120px] h-[4px] bg-dark max-[1100px]:hidden"
 					/>
 
-					<motion.span
+					<motion.h1
 						initial={{ opacity: 0, scale: 0.8 }}
 						animate={{ opacity: 1, scale: 1 }}
 						transition={{ duration: 0.5, type: "spring" }}
-						className="ml-14 font-semibold text-6xl max-[800px]:ml-4  max-[800px]:text-4xl max-[400px]:text-3xl"
+						className="ml-14 font-semibold text-6xl max-[1400px]:text-4xl max-[800px]:ml-4  max-[400px]:text-3xl"
 					>
 						{title}
-					</motion.span>
+					</motion.h1>
 				</div>
 				{description && (
 					<motion.span
