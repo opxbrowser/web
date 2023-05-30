@@ -15,8 +15,8 @@ export default function Header() {
 			{ id: 2, name: "Why Opx?", href: "/why", isSeparated },
 			{
 				id: 3,
-				name: "Install App",
-				href: "https://github.com/opxbrowser/mobile",
+				name: "Download App",
+				href: "https://github.com/opxbrowser/mobile/releases/tag/1.0.0",
 				isSeparated,
 			},
 		],
