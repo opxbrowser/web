@@ -9,7 +9,7 @@ export default function Footer() {
 				<ul className="flex items-center not-sr-only max-[680px]:hidden">
 					<FooterItem title="Data policy" href="/policy" isSeparated />
 					<FooterItem title="Service Terms" href="/terms" isSeparated />
-					<FooterItem title="@Opx Browser 2022" href="/" disabled />
+					<FooterItem title="@Opx Browser 2023" href="/" disabled />
 				</ul>
 				<ul className="flex-col justify-center items-center not-sr-only hidden max-[680px]:flex">
 					<FooterItem title="Data policy" href="/policy" bottomSeparated />
