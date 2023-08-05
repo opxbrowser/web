@@ -25,8 +25,8 @@ export default function Header() {
 
 	return (
 		<>
-			<div className="w-full h-[70px] flex items-center justify-center border-b-2 border-white max-[800px]:justify-end">
-				<nav className="max-[800px]:hidden">
+			<div className="w-full h-[70px] flex items-center justify-center border-b-2 border-white r-800:justify-end">
+				<nav className="r-800:hidden">
 					<ul className="flex items-center not-sr-only">
 						{menuOptions(true).map((item) => (
 							<HeaderItem
@@ -41,7 +41,7 @@ export default function Header() {
 				<motion.div
 					whileTap={{ scale: 0.8 }}
 					onClick={() => setShowsMenu(!showsMenu)}
-					className="mx-14 bg-primary-200 w-12 h-12 rounded-full justify-center items-center hidden max-[800px]:flex"
+					className="mx-14 bg-primary-200 w-12 h-12 rounded-full justify-center items-center hidden r-800:flex"
 				>
 					{!showsMenu ? (
 						<BiMenu size={32} color={"#8A4FFF"} />
@@ -52,7 +52,7 @@ export default function Header() {
 				<img
 					src={HeaderBg}
 					alt="header background"
-					className="absolute -z-10 h-[100%] w-[100%] max-[800px]:w-[5S00px] max-[800px]:h-[200%]"
+					className="absolute -z-10 h-[100%] w-[100%] r-800:w-[5S00px] r-800:h-[200%]"
 				/>
 			</div>
 			<AnimatePresence>
@@ -76,9 +76,9 @@ export default function Header() {
 									initial={{ opacity: 0, y: -10 }}
 									animate={{ opacity: 1, y: 0 }}
 									transition={{ duration: index / 4 }}
+									key={item.id}
 								>
 									<HeaderItem
-										key={item.id}
 										title={item.name}
 										href={item.href}
 										isSeparated={item.isSeparated}

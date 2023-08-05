@@ -7,10 +7,10 @@ export default function ImageOpxContainer() {
 				<img
 					src={opxElipse}
 					alt="Opx logo"
-					className="w-[100px] max-[800px]:w-[80px] max-[600px]:w-[70px] max-[400px]:w-[60px]"
+					className="w-[100px] r-800:w-[80px] r-600:w-[70px] r-400:w-[60px]"
 				/>
 			</div>
-			<span className="bg-gradient-to-r  text-transparent bg-clip-text from-primary to-pink mt-10 hover:from-pink hover:to-primary hover:transition-all cursor-default text-lg max-[600px]:text-base max-[400px]:text-sm">
+			<span className="bg-gradient-to-r  text-transparent bg-clip-text from-primary to-pink mt-10 hover:from-pink hover:to-primary hover:transition-all cursor-default text-lg r-600:text-base r-400:text-sm">
 				@Opx Browser
 			</span>
 		</div>
